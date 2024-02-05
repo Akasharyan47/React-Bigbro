@@ -31,7 +31,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
        <GlobalStyle />
-       <BrowserRouter>
+       <BrowserRouter> 
         <Header />
         <Routes> 
          <Route path="/" element={<Home />} />
